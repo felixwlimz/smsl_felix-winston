@@ -42,7 +42,7 @@ jobs :
       # Run as a mlflow project
       - name: Run mlflow project
         run: |
-          mlflow run Workflow-CI/MLProject/modeling.py --env-manager=local 
+          mlflow run Workflow-CI/MLProject --env-manager=local 
 
       - name: Save mlruns to repo
         run: |
