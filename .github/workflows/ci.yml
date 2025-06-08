@@ -1,0 +1,53 @@
+name : CI MLflow 
+
+on : 
+  push:
+    branches: 
+      - main
+  pull_request:
+    branches: 
+      - main
+
+env : 
+  CSV_URL: "preprocessing/cardio_train_scaled.csv"
+  TARGET_VAR : "cardio"
+  ALPHA : 0.001
+  L1_RATIO : 0.5
+  MAX_ITER : 1000
+  RANDOM_STATE : 42
+
+jobs :
+  build : 
+    runs-on : ubuntu-latest 
+
+    steps : 
+      - uses: actions/checkout@v3
+
+      - name : Setup Python 3.12.7
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12.7
+      
+        # Check Env Variables
+      - name: Check Env
+        run: |
+          echo $CSV_URL
+
+      # Install mlflow
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mlflow
+      
+      # Run as a mlflow project
+      - name: Run mlflow project
+        run: |
+          mlflow run Project --env-manager=local 
+
+      - name: Save mlruns to repo
+        run: |
+          git config --global user.name ${{ secrets.username }}
+          git config --global user.email ${{ secrets.email }}
+          git add mlruns/
+          git commit -m "Save mlruns from CI run"
+          git push origin master
