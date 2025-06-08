@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/293b310333cd466699bb008165ce12ef/artifacts
+end_time: 1749276278039
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 293b310333cd466699bb008165ce12ef
+run_name: stylish-loon-400
+run_uuid: 293b310333cd466699bb008165ce12ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749276269777
+status: 3
+tags: []
+user_id: felixwilimz

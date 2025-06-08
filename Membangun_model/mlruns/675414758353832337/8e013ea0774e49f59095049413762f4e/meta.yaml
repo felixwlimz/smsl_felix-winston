@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/8e013ea0774e49f59095049413762f4e/artifacts
+end_time: 1749282713170
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 8e013ea0774e49f59095049413762f4e
+run_name: debonair-panda-78
+run_uuid: 8e013ea0774e49f59095049413762f4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749282571014
+status: 3
+tags: []
+user_id: felixwilimz

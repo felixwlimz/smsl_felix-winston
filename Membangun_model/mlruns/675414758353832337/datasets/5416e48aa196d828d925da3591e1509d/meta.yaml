@@ -1,0 +1,15 @@
+digest: c2750bb6
+name: dataset
+profile: '{"num_rows": 14000, "num_elements": 168000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "id", "required": true}, {"type":
+  "double", "name": "age", "required": true}, {"type": "double", "name": "gender",
+  "required": true}, {"type": "double", "name": "height", "required": true}, {"type":
+  "double", "name": "weight", "required": true}, {"type": "double", "name": "ap_hi",
+  "required": true}, {"type": "double", "name": "ap_lo", "required": true}, {"type":
+  "double", "name": "cholesterol", "required": true}, {"type": "double", "name": "gluc",
+  "required": true}, {"type": "double", "name": "smoke", "required": true}, {"type":
+  "double", "name": "alco", "required": true}, {"type": "double", "name": "active",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "felixwilimz", "mlflow.source.name": "modeling.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

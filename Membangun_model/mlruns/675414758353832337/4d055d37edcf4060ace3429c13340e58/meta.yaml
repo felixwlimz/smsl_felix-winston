@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/4d055d37edcf4060ace3429c13340e58/artifacts
+end_time: 1749277149890
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 4d055d37edcf4060ace3429c13340e58
+run_name: abrasive-fawn-247
+run_uuid: 4d055d37edcf4060ace3429c13340e58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749277076994
+status: 3
+tags: []
+user_id: felixwilimz

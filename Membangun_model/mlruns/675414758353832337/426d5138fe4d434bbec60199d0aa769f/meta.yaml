@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/426d5138fe4d434bbec60199d0aa769f/artifacts
+deleted_time: 1749283372759
+end_time: 1749283359772
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: deleted
+run_id: 426d5138fe4d434bbec60199d0aa769f
+run_name: nebulous-doe-62
+run_uuid: 426d5138fe4d434bbec60199d0aa769f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749282904724
+status: 4
+tags: []
+user_id: felixwilimz

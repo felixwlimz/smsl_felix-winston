@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/d80e2dd4cfc64f91a2038778acbc1e98/artifacts
+end_time: 1749282570964
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: d80e2dd4cfc64f91a2038778acbc1e98
+run_name: incongruous-bee-751
+run_uuid: d80e2dd4cfc64f91a2038778acbc1e98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749282498389
+status: 3
+tags: []
+user_id: felixwilimz

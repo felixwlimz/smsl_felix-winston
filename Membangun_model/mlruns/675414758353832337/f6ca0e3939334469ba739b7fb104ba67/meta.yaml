@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/f6ca0e3939334469ba739b7fb104ba67/artifacts
+end_time: 1749282833311
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: f6ca0e3939334469ba739b7fb104ba67
+run_name: crawling-sloth-714
+run_uuid: f6ca0e3939334469ba739b7fb104ba67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749282825707
+status: 3
+tags: []
+user_id: felixwilimz

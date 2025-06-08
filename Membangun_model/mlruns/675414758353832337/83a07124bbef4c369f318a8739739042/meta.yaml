@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/83a07124bbef4c369f318a8739739042/artifacts
+end_time: 1749282498350
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 83a07124bbef4c369f318a8739739042
+run_name: rumbling-chimp-231
+run_uuid: 83a07124bbef4c369f318a8739739042
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749282490541
+status: 3
+tags: []
+user_id: felixwilimz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/765739bc0d91454f9ceee4dd20a3a81e/artifacts
+end_time: 1749282713170
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 765739bc0d91454f9ceee4dd20a3a81e
+run_name: orderly-gnat-278
+run_uuid: 765739bc0d91454f9ceee4dd20a3a81e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749282571014
+status: 3
+tags: []
+user_id: felixwilimz

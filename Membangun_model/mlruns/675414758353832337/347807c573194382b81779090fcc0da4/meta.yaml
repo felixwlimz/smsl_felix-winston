@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/347807c573194382b81779090fcc0da4/artifacts
+end_time: 1749276525122
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 347807c573194382b81779090fcc0da4
+run_name: mysterious-shoat-277
+run_uuid: 347807c573194382b81779090fcc0da4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749276452403
+status: 3
+tags: []
+user_id: felixwilimz

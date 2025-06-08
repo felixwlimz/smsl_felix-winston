@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/3ef879ccfa634c5d809488cdd250c94f/artifacts
+end_time: 1749282713170
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 3ef879ccfa634c5d809488cdd250c94f
+run_name: placid-koi-238
+run_uuid: 3ef879ccfa634c5d809488cdd250c94f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749282571014
+status: 3
+tags: []
+user_id: felixwilimz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/84f3b7cb653c4b319707893bfa62e824/artifacts
+end_time: 1749277193393
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: active
+run_id: 84f3b7cb653c4b319707893bfa62e824
+run_name: wise-hare-6
+run_uuid: 84f3b7cb653c4b319707893bfa62e824
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749277149933
+status: 4
+tags: []
+user_id: felixwilimz

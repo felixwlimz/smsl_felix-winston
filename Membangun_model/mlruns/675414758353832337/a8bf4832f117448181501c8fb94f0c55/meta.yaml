@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/675414758353832337/a8bf4832f117448181501c8fb94f0c55/artifacts
+deleted_time: 1749276437681
+end_time: 1749276345366
+entry_point_name: ''
+experiment_id: '675414758353832337'
+lifecycle_stage: deleted
+run_id: a8bf4832f117448181501c8fb94f0c55
+run_name: loud-lamb-202
+run_uuid: a8bf4832f117448181501c8fb94f0c55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749276278072
+status: 4
+tags: []
+user_id: felixwilimz

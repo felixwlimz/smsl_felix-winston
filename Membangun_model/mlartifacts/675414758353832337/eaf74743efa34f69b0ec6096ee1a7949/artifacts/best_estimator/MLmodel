@@ -1,0 +1,35 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 989
+model_uuid: 5386367e3c20407793d04c8cdfcd917c
+prompts: null
+run_id: eaf74743efa34f69b0ec6096ee1a7949
+signature:
+  inputs: '[{"type": "double", "name": "id", "required": true}, {"type": "double",
+    "name": "age", "required": true}, {"type": "double", "name": "gender", "required":
+    true}, {"type": "double", "name": "height", "required": true}, {"type": "double",
+    "name": "weight", "required": true}, {"type": "double", "name": "ap_hi", "required":
+    true}, {"type": "double", "name": "ap_lo", "required": true}, {"type": "double",
+    "name": "cholesterol", "required": true}, {"type": "double", "name": "gluc", "required":
+    true}, {"type": "double", "name": "smoke", "required": true}, {"type": "double",
+    "name": "alco", "required": true}, {"type": "double", "name": "active", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-07 07:51:51.258627'
