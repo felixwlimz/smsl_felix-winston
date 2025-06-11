@@ -58,7 +58,7 @@ def random_forest_model(X_train, y_train, X_test, y_test):
 
 # === Main Execution ===
 if __name__ == "__main__":
-    dataset_path = "../preprocessing/cardio_train_scaled.csv"
+    dataset_path = "cardio_train_scaled.csv"
     main_df = read_dataset(dataset_path)
 
     X_train, X_test, y_train, y_test = split_dataset(main_df)
