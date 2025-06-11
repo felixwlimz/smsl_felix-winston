@@ -27,8 +27,7 @@ def split_dataset(df: pd.DataFrame) -> tuple:
 def logreg_model(X_train, y_train, X_test, y_test):
     model = LogisticRegression(max_iter=1000, random_state=42)
     
-    with mlflow.start_run(run_name="LogisticRegression"):
-        mlflow.set_experiment("Cardio Health Prediction")
+    with mlflow.start_run(run_name="LogisticRegression", nested=True):
         mlflow.sklearn.autolog()
         
         model.fit(X_train, y_train)
@@ -44,8 +43,7 @@ def logreg_model(X_train, y_train, X_test, y_test):
 def random_forest_model(X_train, y_train, X_test, y_test):
     model = RandomForestClassifier(n_estimators=100, random_state=42)
     
-    with mlflow.start_run(run_name="RandomForest"):
-        mlflow.set_experiment("Cardio Health Prediction")
+    with mlflow.start_run(run_name="RandomForest", nested=True):
         mlflow.sklearn.autolog()
 
         model.fit(X_train, y_train)
