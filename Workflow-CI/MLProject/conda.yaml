@@ -9,4 +9,4 @@ dependencies:
       - pandas
       - scikit-learn
       - numpy
-      - tensorflow
+      - tensorflow==2.14.0
