@@ -1,0 +1,8 @@
+name: cardio_modeling
+
+entry_points:
+  main:
+    parameters:
+      model: {type: str, default: "logreg"}
+    command: >
+      python modeling.py --model {model}
