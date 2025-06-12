@@ -42,7 +42,7 @@ jobs :
       # Run as a mlflow project
       - name: Run mlflow project
         run: |
-          mlflow run Workflow-CI/MLProject --env-manager=local 
+          mlflow run Workflow-CI/MLProject --env-manager=local --experiment-name="Cardio Health Prediction"
 
       - name: Save mlruns to repo
         run: |
