@@ -46,9 +46,9 @@ jobs :
 
       - name: Save mlruns to repo
         run: |
-          git config --global user.name "CI Bot"
-          git config --global user.email "ci@example.com"
+          git config --global user.name "felixwlimz"
+          git config --global user.email "felixlim140@gmail.com"
           git add mlruns/
           git commit -m "Save mlruns from CI run"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/felixwlimz/smsl_felix-winston.git HEAD:main
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/felixwlimz/smsl_felix-winston.git main
 
