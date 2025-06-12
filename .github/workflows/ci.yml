@@ -50,4 +50,4 @@ jobs :
           git config --global user.email "ci@example.com"
           git add mlruns/
           git commit -m "Save mlruns from CI run"
-          git push origin master
+          git push origin main
