@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 
 # Set up MLflow tracking
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+# mlflow.set_tracking_uri("http://127.0.0.1:5000")
 mlflow.set_experiment("Cardio Health Prediction")
 
 def read_dataset(file_path: str) -> pd.DataFrame:
