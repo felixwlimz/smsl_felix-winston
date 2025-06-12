@@ -16,7 +16,7 @@ MEMORY_USAGE = Gauge('system_memory_usage', 'Memory Usage of the system')  # Pen
 
 @app.route('/metrics', methods=['GET'])
 def metrics():
-    CPU_USAGE.set(generate_latest(), mimetype=CONTENT_TYPE_LATEST)
+    CPU_USAGE.set(generate_latest())
     MEMORY_USAGE.set(psutil.virtual_memory().percent)
     
     return Response(generate_latest(), mimetype=CONTENT_TYPE_LATEST)
